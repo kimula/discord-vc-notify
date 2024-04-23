@@ -1,0 +1,26 @@
+{
+  "name": "discord-vc-notify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "test": "tsc --noEmit",
+    "build": "tsc --build",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xekri/discord-vc-notify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xekri/discord-vc-notify/issues"
+  },
+  "homepage": "https://github.com/xekri/discord-vc-notify#readme"
+}
