@@ -46,7 +46,7 @@ const sendStateChange = (state: VoiceState, leaves: boolean) => {
           value: userIds.map(it => `<@${it}>`).join(' ') || 'none',
           inline: true,
         },
-      ]
+      ],
     }
 
     voiceChannel.send({ embeds: [embed] }).catch(console.error)
